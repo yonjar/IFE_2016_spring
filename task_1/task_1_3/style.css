@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 100vw;
+}
+img {
+	height: 80px;
+	width: 80px;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.cleanfix{
+	clear: both;
+}
+.m20{
+	margin: 20px;
+}
+.box1{
+	background-color: #eee;
+	border: 1px solid #999;
+}
+.box2, .box3, .box4{
+	border: 1px solid #999;
+    background-color: #fff;
+}
+.box2{
+	width: 198px;
+}
+.box3{
+	padding: 20px;
+	margin: 20px 160px 20px 240px;
+}
+.box4{
+	width: 118px;
+}
