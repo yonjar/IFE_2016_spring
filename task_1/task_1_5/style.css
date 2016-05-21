@@ -1,0 +1,172 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size: 16px;
+	background-color: #fafafa;
+	overflow-x: hidden;
+	height: 100%;
+}
+a{
+	text-decoration: none;
+	color: #00ffff;
+}
+nav {
+    width: 100%;
+    height: 64px;
+    display: block;
+    background-color: #444444;
+    position: relative;
+    box-shadow: #555 0 0 5px;
+}
+h1{
+	font-size: 2em;
+}
+h2{
+	font-size: 1.8em;
+}
+h3{
+	font-size: 1.6em;
+}
+h4{
+	font-size: 1.3em;
+}
+p{
+	text-indent: 2em;
+	padding: 1em;
+}
+img{
+	margin: 10px 20px;
+}
+nav h1{
+	color: #f1f1f1;
+	float: left;
+    line-height: 64px;
+    margin-left: 15%;
+}
+ol{
+	margin: 20px;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+}
+nav ul{
+	float: right;
+	display: block;
+	line-height: 64px;
+	margin-right: 15%; 
+}
+nav ul li {
+    float: left;
+    margin: 0 20px;
+}
+.container{
+    width: 100%;
+}
+.clear{
+	clear: both;
+}
+article, .sidebar{
+    margin: 10px;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: #aaa 2px 1px 5px;
+}
+article{
+	width: 60%;
+	float: left;
+}
+.sidebar{
+	width: 30%;
+	/* float: right; */
+	display: inline-block;
+	position: relative;
+}
+article h4, article div span{
+	color: #ccc;
+}
+.meta{
+ 	float: right;
+ 	font-size: 3em;
+ 	font-style: italic;
+ }
+ .gallery li{
+    padding: 25px;
+    border: 2px dashed #00B8FF;
+    margin: 9px;
+ }
+ .gallery li p{
+ 	text-align: center;
+	text-indent: 0; 
+    padding: 0; 
+ }
+ .gallery li img{
+	margin: 0;
+ 	padding: 20px 5px 5px 5px;
+ }
+
+ table{
+	width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    border: 1px solid pink;
+ }
+ tr th{
+ 	color: #f1f1f1;
+ 	background-color: #444;
+ }
+ tr th, tr td{
+ 	    padding-left: 5px;
+ }
+ .pink{
+ 	background-color: pink;
+ }
+ .tips{
+ 	color: #aaa;
+ 	line-height: 1.5em;
+ }
+ .sidebar h3{
+ 	border-left: 5px #eee solid;
+ 	padding-left: 10px; 
+ }
+ form label{
+ 	position: absolute;
+    right: 50%;
+ 	margin-right: 5px;
+ }
+ input, textarea, select, form span, form div{
+ 	position: relative;
+    left: 50%;
+ 	margin-left: 5px;
+ }
+ .btn{
+    width: 10%;
+    background-color: #5A5F72;
+    color: #f1f1f1;
+    margin: 0 auto;
+    border: none;
+    height: 2.5em;
+    margin-left: 5px;
+    border-radius: 20px;
+    font-size: 15px;
+ }
+ footer{
+ 	height: 64px;
+ 	width: 100%;
+ 	position: relative;
+ 	bottom: 0;
+	z-index: -1;
+	background-color: #666;
+	color: #eee;
+ }
+.center{
+	text-align: center;
+}
+.cright{
+	line-height: 64px;
+	font-size: 2em;
+	font-weight: bold;
+	font-style: italic;
+}
